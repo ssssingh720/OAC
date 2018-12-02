@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <!--<ImageView-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="75dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@drawable/logo" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="5dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@drawable/dotted_line_bg"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback_options"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/submit_feedback_text"
+                android:textColor="@color/dark_black"
+                android:textSize="14sp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:text="Help Topics"-->
+            <!--android:textColor="@color/dark_black"-->
+            <!--android:textSize="16sp" />-->
+
+            <ExpandableListView
+                android:id="@+id/expHelp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:groupIndicator="@null" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--</ScrollView>-->
+
+</LinearLayout>

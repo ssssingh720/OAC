@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/view_list_repo_action_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:gravity="right|center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/call"
+            android:gravity="center"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/chat"
+            android:gravity="center"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/sms_msg"
+            android:gravity="center"
+            android:visibility="visible" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/txtFrwdDoc"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:gravity="center"-->
+        <!--android:paddingRight="8dp"-->
+        <!--android:text="Approve"-->
+        <!--android:textSize="15dp"-->
+        <!--android:visibility="visible" />-->
+
+    </LinearLayout>
+
+    <!--<include-->
+        <!--layout="@layout/networking_dtl_adapter"-->
+        <!--android:visibility="visible" />-->
+
+</FrameLayout>

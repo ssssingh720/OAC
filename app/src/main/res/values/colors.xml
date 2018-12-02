@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AA1E21</color>
+    <color name="colorPrimaryDark">#F15445</color>
+    <color name="colorAccent">#F15445</color>
+
+    <color name="tab_background">#E8E8EA</color>
+    <color name="underline_color">#79808a</color>
+    <color name="light_underline_color">#D3D3D5</color>
+    <color name="white">#ffffff</color>
+    <color name="sign_up_btn_bg">#D3D3D3</color>
+    <color name="dark_black">#000000</color>
+
+    <color name="alpha_dark_black">#9a000000</color>
+
+    <color name="color_success">#3CCD88</color>
+    <color name="color_error">#f44336</color>
+
+
+</resources>

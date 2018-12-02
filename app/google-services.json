@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715015333819",
+    "firebase_url": "https://oac2018-a8c52.firebaseio.com",
+    "project_id": "oac2018-a8c52",
+    "storage_bucket": "oac2018-a8c52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715015333819:android:8ac94dfa0cbcc2ed",
+        "android_client_info": {
+          "package_name": "org.oacasia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715015333819-d6f7u0k7r1ak9mia6f6tob6c2eh4r3pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXgOQZoCd1OnZF98qrv5PlL050YU6pp0A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

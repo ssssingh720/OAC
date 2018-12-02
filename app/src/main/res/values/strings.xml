@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">OAC Asia 2018</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="company_name">Company Name</string>
+    <string name="designation">Designation</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">REGISTER</string>
+    <string name="update">UPDATE</string>
+    <string name="email_to_get_password">Please enter the registered email to generate the password.</string>
+    <string name="already_have_an_account_login">Already have an account? <u>Login</u></string>
+    <string name="forgot_password"><u>Generate Password?</u></string>
+    <string name="login">LOGIN</string>
+    <string name="no_internet">Please check your internet connectivity.</string>
+    <string name="submit">Submit</string>
+
+    <string name="public_networking_text">Photo and profile will be viewed by all registered app users</string>
+    <string name="private_networking_text">Other registered users will not able to view your photo and profile</string>
+    <string name="terms_condition"><u>Terms &amp; Condition</u></string>
+    <string name="question_ans_prize">Prize for best question is "\n"brought to you by</string>
+    <string name="sponsors">Sponsors</string>
+    <!--<string name="quiz_text">- First Prize winner is Iphone 7 \n- Second prize winner will get iPad "\n"Brought to you by</string>-->
+    <string name="quiz_text">Brought to you by</string>
+    <string name="quiz_thanks_text">Thank you for participating in quiz and winners will be announced during OAA 2018 show.</string>
+    <string name="feedback_options">Feedback Options</string>
+    <string name="submit_feedback_text">Submit your feedback for OAC 2018</string>
+    <string name="give_feedback">Give us Feedback</string>
+    <string name="give_session_feedback">Give us Session Feedback</string>
+    <string name="rate_feedback">Rate your overall experience for</string>
+    <string name="write_your_comments_here">write your comments here</string>
+    <string name="invalid_token">Auth token is not an authorized token or expired.</string>
+    <string name="title_activity_testing">TestingActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- navigation drawer  -->
+    <string name="home">Home</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="feedback">Feedback</string>
+    <string name="people_to_meet">People to meet</string>
+    <string name="award_nominees">Award Nominees</string>
+    <string name="qr_code">QR Code</string>
+    <string name="log_out">Logout</string>
+
+    <string name="search_delegate">Search Delegate</string>
+    <string name="call_us">Call us</string>
+    <string name="sms">sms</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="meeting">Meeting</string>
+    <string name="request_already_send">You already send request.</string>
+    <string name="request_sent_successfully">Meeting request sent successfully</string>
+    <string name="notification">Notifications</string>
+    <string name="oac_2018">OAC 2018</string>
+    <string name="oac_speakers">OAC Speakers</string>
+    <string name="ooh_expo">OOH Expo</string>
+    <string name="oaa_expo">OAA 2018</string>
+    <string name="request_camer">Request Received</string>
+    <string name="request_send">Request Send</string>
+
+    <string name="permission">To view data allow app to write system settings.</string>
+    <string name="go_to_permission">Go to Permissions to Grant Camera and Storage</string>
+    <string name="storage_permission_required">Storage Permission Required</string>
+    <string name="permission_required">Permission Required For This Functionality</string>
+    <string name="show_external_setting">Show External settings?</string>
+    <string name="grant_storage">Go to Permissions to Grant Storage</string>
+    <string name="gallery_permission_cancel">Permission Canceled, Your application cannot access GALLERY</string>
+    <string name="camera_permission_decline">Permission Canceled, Your application cannot access CAMERA</string>
+    <string name="feedbackSession">FeedbackSession</string>
+    <string name="qnasessionfeedback">QnASession</string>
+    <string name="oacfeedback">FeedbackOAC</string>
+    <string name="feedbackexposession">FeedbackExpo</string>
+    <string name="oaafeedbacksession">FeedbackOAA</string>
+    <string name="back">Back</string>
+    <string name="usefullness_to_my_business">Usefulness to my Business</string>
+    <string name="quality_of_presentation">Quality of Presentation</string>
+    <string name="overall_experiences">Overall Experiences</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="about_us_tag">about_us</string>
+    <string name="agenda_tag">agends</string>
+    <string name="speaker_tag">speakers</string>
+    <string name="jury_tag">jury</string>
+    <string name="venue_tag">venue</string>
+    <string name="sponsor_tag">sponsors</string>
+    <string name="quest_ans_tag">QuestAns</string>
+    <string name="quiz_tag">quiz</string>
+    <string name="networking_tag">networking</string>
+    <string name="couldnt_generate_pwd">Couldn\'t generate your password. Please try later.</string>
+    <string name="password_sent">Password has been sent to your registered email</string>
+
+    <!--<string name="google_maps_key">AIzaSyAXqsHhnWXtUjD9BECx5CvSdrXRTl2FCBI</string>-->
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:elevation="2dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/lnrSpeakerDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgJury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/app_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center|left|top"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtJuryName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:text="ABC Xyz"
+                    android:textStyle="bold"
+                    android:textColor="@color/dark_black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txtJuryDesig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:text="ABC Xyz"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/dark_black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txtJuryCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="ABC Xyz"
+                    android:textColor="@color/dark_black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/card_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:elevation="5dp"-->
+    <!--card_view:cardCornerRadius="4dp">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtJuryName"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center|left"-->
+    <!--android:maxLines="1"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="ABC Xyz - "-->
+    <!--android:textColor="@color/dark_black"-->
+    <!--android:textSize="14sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtJuryDesig"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center|left"-->
+    <!--android:text="ABC Xyz dasdasdasdas dadasd dasdasda dasdas dasdas dadasdasdas"-->
+    <!--android:textColor="@color/dark_black"-->
+    <!--android:textSize="14sp"-->
+    <!--android:textStyle="italic" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgJury"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:adjustViewBounds="true"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@drawable/logo" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtJuryProf"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="left|top"-->
+    <!--android:paddingBottom="5dp"-->
+    <!--android:maxLines="5"-->
+    <!--android:ellipsize="end"-->
+    <!--android:paddingTop="5dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:text="I am slightly new in android development. I want to ask how is the paint object with dashed effect added to the linear layout I just created I am slightly new in android development. I want to ask how is the paint object with dashed effect added to the linear layout I just created I am slightly new in android development. I want to ask how is the paint object with dashed effect added to the linear layout I just created"-->
+    <!--android:textColor="@color/dark_black"-->
+    <!--android:textSize="14sp" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@color/colorPrimary" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</LinearLayout>

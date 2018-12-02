@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/edit_profile"
+            android:title="@string/edit_profile" />
+        <!--<item-->
+            <!--android:id="@+id/feedback"-->
+            <!--android:title="@string/feedback" />-->
+
+        <item
+            android:id="@+id/people_to_meet"
+            android:title="@string/people_to_meet" />
+
+         <item
+            android:id="@+id/award_nominees"
+            android:title="@string/award_nominees" />
+
+        <item
+            android:id="@+id/qr-code"
+            android:title="@string/qr_code" />
+
+        <item
+            android:id="@+id/log_out"
+            android:title="@string/log_out" />
+    </group>
+</menu>
